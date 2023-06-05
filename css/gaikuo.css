@@ -1,0 +1,60 @@
+@charset "utf-8";
+@font-face {
+    font-family: ziti1;
+    src: url(../font/李旭科经典行书.ttf);
+}
+.main {
+    width: 1002px;
+    height: 700px;
+    margin: 10px auto;
+    background-image: url(../images/gkbz.jpg);
+
+}
+aside {
+    width: 260px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    font-family: FJ;
+    text-align: center;
+    
+}
+
+aside h3 {
+    background-color: skyblue;
+    color: #fff;
+    height: 40px;
+
+}
+
+aside ul li {
+    height: 80px;
+    line-height: 30px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10%;
+    background:skyblue;
+    font-size: 50px;
+    font-family: ziti1;
+}
+
+aside ul li a:hover {
+    color: red;
+}
+
+section {
+    height: 700px;
+    width: 730px;
+    float: right;
+    border: 5px solid skyblue;
+    background: url();
+    word-spacing: 2px;
+}
+.A{
+    display: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+:target{
+    display: block;
+}
